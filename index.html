@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav_content">
+            <div class="logo">
+                <a href="">Nathan</a>
+            </div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <input type="checkbox" name="check" id="check">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#maitrise">Language maitrisé</a></li>
+                <li><a href="#">Curriculum vitæ</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="section">
+        <div class="section_container">
+            <div class="content">
+                <p class="subtitle">BONJOUR</p>
+                <h1 class="title">
+                    Je suis <span>Nathan<br>un</span> Concepteur Developpeur d'Application
+                </h1>
+                <p class="description">
+                    Bienvenue sur mon portfolio de concepteur développeur d'application ! 
+                    Je suis Nathan, un concepteur développeur d'application compétent et créatif,
+                    passionné par la création d'applications esthétiques, réactives et user-friendly.
+                    J'ai travaillé sur une variété de projets d'application, allant des applications personnelles
+                    aux plateformes de e-commerce.
+                </p>
+                <div class="action_btns">
+                    <button class="hire_me">Travailler avec moi</button>
+                    <button class="portfolio">Portfolio</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="assets/profile.jpg" alt="profile">
+            </div>
+        </div>
+    </section>
+    <section class="section" id="maitrise">
+        <h1 class="title" style="text-align: center;">Language maitrisé</h1>
+        <div class="section_container">
+            <div>
+                <img src="assets/lang.png" alt="">
+            </div>
+            
+        </div>
+    </section>
+    <section class="section" id="contact">
+        <div class="section_container">
+            <div class="content">
+                <form>
+                    <h1 class="title text-center mb-4">Me contacter</h1>
+            
+                        <div class="form-group position-relative">
+                            <label for="formName" class="d-block">
+                                <i class="icon" data-feather="user"></i>
+                            </label>
+                            <input type="text" id="formName" class="form-control form-control-lg thick" placeholder="Nom et prénom">
+                        </div>
+            
+                        <div class="form-group position-relative">
+                            <label for="formEmail" class="d-block">
+                                <i class="icon" data-feather="mail"></i>
+                            </label>
+                            <input type="email" id="formEmail" class="form-control form-control-lg thick" placeholder="E-mail">
+                        </div>
+            
+                        <div class="form-group message">
+                            <textarea id="formMessage" class="form-control form-control-lg" rows="7" placeholder="Message"></textarea>
+                        </div>
+                    
+                        <div class="text-center action_btns">
+                            <button type="submit" class="hire_me" tabIndex="-1">Envoyer un message</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
